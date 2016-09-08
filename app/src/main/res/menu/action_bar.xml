@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    
+    >
+    <item
+        android:id="@+id/mic_search"
+        android:icon="@drawable/ic_mic"
+
+        android:title="voice search"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/phone"
+        android:icon="@drawable/ic_action_phone_start"
+        android:title="Phone"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/done"
+        android:icon="@drawable/ic_done"
+        android:title="Done"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/Contacts"
+
+        android:title="contacts"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/settings"
+        android:title="settings"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/status"
+        android:title="status"
+        app:showAsAction="ifRoom"
+        />
+</menu>
